@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   resources :microposts
   resources :users
-  root "application#hi"
+  root "application#hello"
  
   get "hi", to: "application#hello"
 
